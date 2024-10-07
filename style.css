@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    align-items: center; /* Aby byly prvky vertikálně zarovnány */
+    
+  }
+  label {
+    margin-right: 10px; /* Prostor mezi label a odstavcem */
+    
+  }

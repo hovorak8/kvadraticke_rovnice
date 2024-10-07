@@ -8,6 +8,32 @@ if ('serviceWorker' in navigator) {
                 console.log('Service Worker registration failed:', error);
             });
     });
-    // Výpis výsledku do HTML elementu s ID 'result' (může být div nebo jiný element)
-    document.getElementById('result').innerText = result;
+}
+function calculate()
+{
+        const a = document.getElementById("a").value;
+        const b = document.getElementById("b").value;
+        const c = document.getElementById("c").value;
+       
+        let res;
+
+        let disc = (b*b) - (4*a*c);
+
+        if (disc >=0)
+        {
+            if(d == 0)
+            {
+            res1 = (-b + Math.sqrt(disc)) / (2*a)
+            res2 = (-b - Math.sqrt(disc)) / (2*a)
+            } else{}
+            res1 = (-b + Math.sqrt(disc)) / (2*a)
+            res2 = (-b - Math.sqrt(disc)) / (2*a)
+        }
+        else
+        {
+            res1 = "nelze najít výsledek v poli!!!!!"
+        }
+
+        document.getElementById("x1").value;
+        document.getElementById("x2").value;
 }
